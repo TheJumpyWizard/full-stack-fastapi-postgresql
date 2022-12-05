@@ -1,7 +1,7 @@
 {
     "project_name": "Base Project",
     "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
-    "frontend_framework": "{{ cookiecutter.frontend_framework|lower }}",
+    "frontend_framework": "react",
     "domain_main": "{{cookiecutter.project_slug}}.com",
     "domain_staging": "stag.{{cookiecutter.domain_main}}",
 
